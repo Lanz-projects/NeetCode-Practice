@@ -2,9 +2,10 @@
 
 ## 🔍 Problem Summary
 
-A short restatement of the problem **in your own words**.  
-Focus on: what is being asked, what the inputs/outputs are, and what the core challenge is.
-
+Given a 1-indexed array of ints (already sorted) find two numbers that add up to a specific 
+target. Return the indices + 1
+- Only one solution
+- Not use the same element twice
 ---
 
 ## 🧠 Key Insight
@@ -44,5 +45,23 @@ Focus on: what is being asked, what the inputs/outputs are, and what the core ch
 ## 🧪 Final Code (Python)
 
 ```python
-# your solution here
+class Solution(object):
+    def twoSum(self, numbers, target):
+        """
+        :type numbers: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        start  = 0 
+        end = len(numbers) - 1
+
+        while start <= end:
+            curr = numbers[start] + numbers[end]
+            if curr == target:
+                return [start + 1,end + 1]
+            elif curr < target:
+                start += 1
+            else:
+                end -= 1
+        return []
 ```
