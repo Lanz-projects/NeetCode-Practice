@@ -2,15 +2,17 @@
 
 ## 🔍 Problem Summary
 
-A short restatement of the problem **in your own words**.  
-Focus on: what is being asked, what the inputs/outputs are, and what the core challenge is.
+You are given the roots of two binary trees and must determine whether they are identical. Two trees are considered the same if they have the same structure and every corresponding node contains the same value.
+
+The main challenge is verifying both the tree structure and node values simultaneously, since a difference in either means the trees are not the same.
 
 ---
 
 ## 🧠 Key Insight
 
-The single most important idea that unlocks the solution.  
-(Example: “We need fast membership checks → use a set.”)
+Two trees are identical if their corresponding nodes match at every position. This naturally leads to a recursive comparison, where each pair of nodes is checked before recursively comparing their left and right children.
+
+If both nodes are `None`, that portion of the trees matches. If one node is missing or the values differ, the trees cannot be the same.
 
 ---
 
@@ -18,14 +20,16 @@ The single most important idea that unlocks the solution.
 
 ### 1. Brute Force (if applicable)
 
-- One or two bullets describing how it works
-- Why it’s too slow or not ideal
+- Traverse both trees separately, store their structures and values, then compare the resulting representations.
+- This works but requires additional memory to store both traversals before making the comparison.
 
 ### 2. Optimal Approach
 
-- The strategy you chose
-- Why it works
-- Why it’s better than brute force
+- Recursively compare the corresponding nodes of both trees.
+- If both nodes are `None`, return `True` since the current subtrees match.
+- If one node is missing or their values differ, return `False`.
+- Otherwise, recursively compare both left subtrees and both right subtrees.
+- The trees are identical only if every recursive comparison succeeds. Since each pair of corresponding nodes is visited once, the algorithm runs in **O(n)** time, where `n` is the number of nodes, and uses **O(h)** space for the recursive call stack, where `h` is the height of the tree.
 
 ---
 
@@ -50,6 +54,6 @@ class Solution(object):
         if (not p or not q) or (p.val != q.val):
             return False
 
-        return (self.isSameTree(p.left,q.left) and self.isSameTree(p.right,q.right))
-
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))
 ```
