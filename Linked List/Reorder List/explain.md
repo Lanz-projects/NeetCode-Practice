@@ -34,7 +34,7 @@ Each step can be done in linear time, resulting in an efficient in-place solutio
 - Use two pointers (one at the beginning and one at the end) to reconnect the nodes in the required order.
 - While this approach is straightforward, it requires **O(n)** extra space to store the nodes.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use the slow and fast pointer technique to find the middle of the linked list.
 - Reverse the second half of the list in-place.

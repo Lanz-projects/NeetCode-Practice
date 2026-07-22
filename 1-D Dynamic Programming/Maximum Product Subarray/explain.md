@@ -23,7 +23,7 @@ A negative number can swap these roles, so tracking both values at every step en
 - Generate every possible contiguous subarray and calculate its product.
 - Since there are **O(n²)** subarrays and computing each product can take additional time, this approach is too slow for larger inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Initialize the result as the largest individual element since the answer could be a single value.
 - Maintain two running values:

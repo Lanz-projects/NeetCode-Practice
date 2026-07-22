@@ -24,7 +24,7 @@ By maintaining a max-heap for the smaller half and a min-heap for the larger hal
 - Return the middle element (or average of the two middle elements).
 - This approach repeatedly sorts the data, making median queries inefficient as the stream grows.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Maintain two heaps:
   - A max-heap (`small`) containing the smaller half of the numbers.

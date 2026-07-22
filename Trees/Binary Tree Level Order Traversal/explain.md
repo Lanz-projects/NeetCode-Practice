@@ -25,7 +25,7 @@ By processing all nodes currently in the queue before moving on to the next set 
 
 Although this approach works, it repeatedly traverses portions of the tree, resulting in unnecessary work.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 The solution uses a breadth-first search (BFS) with a queue to traverse the tree one level at a time.
 

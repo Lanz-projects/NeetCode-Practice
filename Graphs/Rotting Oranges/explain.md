@@ -23,7 +23,7 @@ By placing every initially rotten orange into the queue, each BFS level represen
 - Simulate each minute by repeatedly scanning the entire grid to find newly rotten oranges.
 - This requires many unnecessary passes over the grid, making the solution much less efficient.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - First, count the number of fresh oranges and add every rotten orange to a queue.
 - Perform a multi-source BFS, where each level of the queue represents one minute.

@@ -23,7 +23,7 @@ Using backtracking allows every valid combination to be explored while pruning b
 - Generate every possible sequence of numbers and check whether its sum equals the target.
 - This produces many unnecessary combinations and duplicate work, making it inefficient as the search space grows.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use depth-first search with backtracking to build one combination at a time.
 - Keep track of the current candidate index, the current combination, and its running total.

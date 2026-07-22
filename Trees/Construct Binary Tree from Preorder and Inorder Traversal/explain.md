@@ -23,7 +23,7 @@ By recursively applying this process to the corresponding portions of both trave
 - Try every possible way of constructing a binary tree and compare its traversals to the given preorder and inorder arrays.
 - While this would eventually find the correct tree, the number of possible binary trees grows exponentially, making the approach impractical.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - The first element in the preorder array is used to create the root node.
 - Find that value in the inorder array to determine where the left subtree ends and the right subtree begins.

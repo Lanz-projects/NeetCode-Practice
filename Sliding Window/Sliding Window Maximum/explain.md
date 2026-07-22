@@ -31,7 +31,7 @@ This allows every element to be added and removed at most once.
 - Repeat this for every possible window.
 - Since each of the roughly `n` windows requires `O(k)` work, the total time complexity is **O(nk)**, which is too slow for large inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use a deque to store **indices** rather than values.
 - As the window expands:

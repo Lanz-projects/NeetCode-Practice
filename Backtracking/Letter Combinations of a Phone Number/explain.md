@@ -23,7 +23,7 @@ Backtracking allows us to build one combination at a time by selecting a letter 
 - Generate every possible sequence of letters without following the digit mapping, then filter out invalid combinations.
 - This approach performs unnecessary work because it explores combinations that could never correspond to the given digits.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Store the mapping from each digit to its corresponding letters in a dictionary.
 - Use backtracking to process the digits from left to right.

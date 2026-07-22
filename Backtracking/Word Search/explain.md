@@ -23,7 +23,7 @@ A set keeps track of the cells currently in the path so they are not revisited. 
 - Try every possible path through the grid without remembering which cells have already been used.
 - This leads to many invalid paths and repeated work, making the search extremely inefficient.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Iterate through every cell in the board as a possible starting position.
 - Use a depth-first search to recursively match one character of the word at a time.

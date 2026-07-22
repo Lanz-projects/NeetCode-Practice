@@ -24,7 +24,7 @@ The minimum possible number of unmatched `'('` and the maximum possible number a
 - Check whether any resulting string is a valid parentheses sequence.
 - Since each `'*'` has three choices, this approach has exponential time complexity and quickly becomes impractical.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Maintain two values:
   - `leftMin`, the minimum possible number of unmatched left parentheses.

@@ -23,7 +23,7 @@ By working backward through the array, each position can determine its best subs
 - Recursively explore every possible subsequence and keep track of the longest increasing one.
 - Since every element can either be included or excluded, this approach has exponential running time.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Create a dynamic programming array `LIS` where `LIS[i]` stores the length of the longest increasing subsequence starting at index `i`.
 - Initialize every position to `1` because every element can always form a subsequence by itself.

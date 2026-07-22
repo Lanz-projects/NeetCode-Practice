@@ -23,7 +23,7 @@ By working backward through the string, each position can be determined using re
 - Recursively try every possible split of the string and check whether each piece exists in the dictionary.
 - This repeatedly recomputes the same suffixes, leading to exponential running time.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Create a dynamic programming array where `dp[i]` indicates whether the substring starting at index `i` can be segmented into dictionary words.
 - Initialize the position after the last character as `True`, since an empty suffix is already successfully segmented.

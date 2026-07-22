@@ -23,7 +23,7 @@ Whenever you encounter a node you've already cloned, simply reuse the existing c
 - Recursively copy every neighbor without keeping track of previously cloned nodes.
 - This fails on graphs with cycles because the same nodes are revisited indefinitely, leading to infinite recursion and duplicate copies.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use a Depth-First Search (DFS) to traverse the graph.
 - Maintain a dictionary that maps each original node to its cloned node.

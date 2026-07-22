@@ -25,7 +25,7 @@ As you traverse the tree, moving to the left child updates the upper bound, whil
 
 Although this approach works, it repeatedly traverses the same subtrees, resulting in unnecessary work.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 The solution uses a recursive depth-first search while maintaining the valid lower and upper bounds for each node.
 

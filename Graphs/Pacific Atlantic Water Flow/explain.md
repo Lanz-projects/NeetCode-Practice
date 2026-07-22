@@ -23,7 +23,7 @@ By moving only to neighboring cells with equal or greater height, you identify e
 - Run a DFS or BFS from every cell to determine whether water can eventually reach both oceans.
 - This repeats many of the same traversals, making the solution much less efficient.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Perform two separate Depth-First Searches (DFS): one starting from every Pacific border cell and another starting from every Atlantic border cell.
 - During each DFS, only move to neighboring cells whose height is **greater than or equal to** the current cell's height. This reverses the direction of water flow and finds every cell that can reach that ocean.

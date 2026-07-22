@@ -29,7 +29,7 @@ This allows us to repeatedly eliminate half of the remaining search space using 
 - Return the minimum after examining every element.
 - This works correctly but requires **O(n)** time, which does not satisfy the problem's constraints.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use two pointers representing the current search range.
 - Repeatedly compute the middle index.

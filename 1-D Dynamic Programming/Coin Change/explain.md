@@ -4,7 +4,7 @@
 
 You are given an array `coins` representing different coin denominations and an integer `amount` representing the target value you want to make.
 
-Your task is to return the minimum number of coins needed to make up the target amount. If it is impossible to form the amount using the given coins, return `-1`. The main challenge is efficiently finding the optimal combination without trying every possible set of coins.
+Your task is to return the minimum number of coins needed to make up the target amount. If it is impossible to form the amount using the given coins, return `-1`. The main challenge is efficiently finding the Better combination without trying every possible set of coins.
 
 ---
 
@@ -23,7 +23,7 @@ By computing the answer for every amount from `0` up to the target, each new val
 - Recursively try every possible combination of coins until the target amount is reached.
 - Since many of the same amounts are recomputed repeatedly, this approach has exponential running time and becomes impractical for larger targets.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Create a dynamic programming array where `dp[i]` stores the minimum number of coins needed to make amount `i`.
 - Initialize every value to an impossible large number, except `dp[0]`, which is `0` because no coins are needed to make an amount of zero.

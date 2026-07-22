@@ -23,7 +23,7 @@ Each interval falls into one of three cases: it comes completely before the new 
 - Insert the new interval into the list, sort all intervals, and then perform a full merge.
 - This works correctly but performs unnecessary sorting even though the original intervals are already sorted.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Iterate through the intervals from left to right.
 - If the new interval ends before the current interval begins, insert the new interval into the result and append the remaining intervals.

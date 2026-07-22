@@ -24,7 +24,7 @@ By storing each point along with its squared distance in a min-heap, we can alwa
 - Return the first `k` points after sorting.
 - While correct, sorting all points performs more work than necessary when only the closest `k` points are needed.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Compute the squared distance (`x² + y²`) for each point and store it with the point in a min-heap.
 - Build the heap using all points.

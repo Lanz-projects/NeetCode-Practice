@@ -30,7 +30,7 @@ If the linked list contains a cycle, the fast pointer will eventually catch up t
 - If the traversal reaches the end of the list, there is no cycle.
 - This approach runs in **O(n)** time but requires **O(n)** extra space.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use Floyd's Cycle Detection Algorithm (also called the **Tortoise and Hare** algorithm).
 - Initialize both the slow and fast pointers at the head.

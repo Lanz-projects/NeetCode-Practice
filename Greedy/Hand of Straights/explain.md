@@ -24,7 +24,7 @@ By keeping track of each card's frequency and always starting from the current s
 - Verify whether every card is used exactly once.
 - This explores far too many possible arrangements and is not feasible for large inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - First, check whether the total number of cards is divisible by `groupSize`. If not, immediately return `False`.
 - Count the frequency of every card value using a hash map.

@@ -23,7 +23,7 @@ Combining the trie with backtracking prunes invalid paths early, making the sear
 - For every word in the list, perform a separate backtracking search on the board.
 - Since many words share prefixes, this repeatedly explores the same paths, resulting in a significant amount of redundant work.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Insert every word into a trie, where each node stores its children and whether it represents the end of a complete word.
 - Start a depth-first search from every cell on the board.

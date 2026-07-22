@@ -23,7 +23,7 @@ Each node keeps track of its child characters, while a separate flag marks wheth
 - Store every word in a list and perform a linear search for `search` and `startsWith`.
 - While simple, each operation may require checking every stored word, making it inefficient as the dataset grows.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Create a `TrieNode` that stores a dictionary of child nodes and a flag indicating whether a word ends at that node.
 - For `insert`, start at the root and create child nodes for characters that do not already exist. After processing every character, mark the final node as the end of a word.

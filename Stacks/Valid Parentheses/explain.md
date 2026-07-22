@@ -29,7 +29,7 @@ A **stack** naturally models this behavior, allowing us to track open brackets a
 - If the string becomes empty, it is valid
 - Inefficient because each removal requires scanning the entire string, leading to poor performance for long inputs
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use a single stack to store opening brackets
 - When encountering a closing bracket, check if it matches the top of the stack

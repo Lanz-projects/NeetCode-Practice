@@ -23,7 +23,7 @@ Words that share the same pattern differ by only one letter in that position. Th
 - For each word visited, compare it against every word in the dictionary to find those that differ by exactly one character.
 - This requires many repeated comparisons, making the search much slower as the dictionary grows.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - First, build a mapping from wildcard patterns (such as `"h*t"` or `"*ot"`) to all words that match each pattern.
 - Add the `beginWord` to the dictionary so it participates in the same pattern mapping.

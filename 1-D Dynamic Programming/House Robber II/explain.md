@@ -23,7 +23,7 @@ By solving the original House Robber problem on these two linear subarrays and t
 - Recursively explore every combination of robbing or skipping houses while checking that adjacent houses are never robbed.
 - The circular dependency greatly increases the number of possibilities, making this approach exponential.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Reuse the linear House Robber algorithm as a helper function.
 - Compute the maximum profit in two separate scenarios:

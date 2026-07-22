@@ -26,7 +26,7 @@ A hashmap lets us group words by this signature in linear time.
 
 ---
 
-### 2. Optimal Approach (Hashmap + Signature)
+### 2. Better Approach (Hashmap + Signature)
 
 - Compute a signature for each word (e.g., sorted characters or a character count).
 - Use a hashmap where the key is the signature and the value is the list of words.

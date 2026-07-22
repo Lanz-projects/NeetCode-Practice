@@ -23,7 +23,7 @@ By computing the size of every island and keeping the maximum, each land cell is
 - Start from every land cell and repeatedly explore all connected land without remembering which cells have already been processed.
 - This causes the same islands to be traversed multiple times, making the solution much less efficient.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Iterate through every cell in the grid.
 - When a land cell that has not been visited is found, start a Depth-First Search (DFS) from that cell.

@@ -24,7 +24,7 @@ A hashmap gives O(1) lookups and O(1) inserts, making it the ideal data structur
 - Time: O(n^2)
 - Space: O(n)
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use a hashmap to store the complements
 - Iterate through, and check the complement of the curr value and the target, and check to see if its in the hashmap,

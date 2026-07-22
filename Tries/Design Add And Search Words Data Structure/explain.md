@@ -23,7 +23,7 @@ When a `'.'` is encountered, the search branches into every possible child node 
 - Store every word in a list and compare each one against the search query character by character.
 - This works, but every search may require checking all stored words, making wildcard searches especially inefficient.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Store every word in a trie where each node contains a dictionary of child nodes and a flag indicating whether a complete word ends there.
 - For `addWord`, traverse the trie, creating child nodes as needed, and mark the final node as a complete word.

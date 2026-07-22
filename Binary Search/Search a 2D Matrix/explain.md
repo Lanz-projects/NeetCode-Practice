@@ -25,7 +25,7 @@ The single most important idea that unlocks the solution.
 - One or two bullets describing how it works
 - Why it’s too slow or not ideal
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - The strategy you chose
 - Why it works

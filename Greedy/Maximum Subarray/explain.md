@@ -24,7 +24,7 @@ As you scan through the array, keep a running sum of the current subarray. If th
 - Keep track of the largest sum encountered.
 - This approach examines **O(n²)** subarrays (or **O(n³)** if each sum is recomputed), making it too slow for large inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Maintain two variables:
   - `curSum`, representing the sum of the current subarray.

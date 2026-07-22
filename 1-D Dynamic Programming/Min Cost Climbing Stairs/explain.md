@@ -23,7 +23,7 @@ By working backward from the top, each step can be updated to store the minimum 
 - Recursively try both possible moves (one step or two steps) from every position and compute the total cost for each path.
 - This repeatedly solves the same subproblems, resulting in exponential running time.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Append a `0` to the end of the array to represent reaching the top without paying an additional cost.
 - Traverse the array backward, updating each step's cost by adding the smaller of the costs from the next one or two steps.

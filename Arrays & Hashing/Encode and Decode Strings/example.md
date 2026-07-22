@@ -29,7 +29,7 @@ In other words:
 
 ---
 
-### 2. Optimal Approach (Length-Prefix Encoding)
+### 2. Better Approach (Length-Prefix Encoding)
 
 - For each string, encode as:  
   `"<length>#<string>"`

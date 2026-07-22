@@ -12,7 +12,7 @@ Return the minimum number of CPU intervals required to complete every task. The 
 
 At any point, the best task to execute is the one with the highest remaining frequency that is not currently cooling down.
 
-A max-heap efficiently selects the next task with the greatest remaining count, while a queue tracks tasks that are cooling down and the time when they can be executed again. Together, these data structures simulate the optimal schedule.
+A max-heap efficiently selects the next task with the greatest remaining count, while a queue tracks tasks that are cooling down and the time when they can be executed again. Together, these data structures simulate the Better schedule.
 
 ---
 
@@ -24,7 +24,7 @@ A max-heap efficiently selects the next task with the greatest remaining count, 
 - Choose the schedule with the fewest idle intervals.
 - This approach explores far too many possible schedules and quickly becomes impractical.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Count how many times each task appears.
 - Store the remaining task frequencies in a max-heap (implemented using negative values).

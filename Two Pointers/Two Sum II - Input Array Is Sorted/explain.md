@@ -2,10 +2,12 @@
 
 ## 🔍 Problem Summary
 
-Given a 1-indexed array of ints (already sorted) find two numbers that add up to a specific 
+Given a 1-indexed array of ints (already sorted) find two numbers that add up to a specific
 target. Return the indices + 1
+
 - Only one solution
 - Not use the same element twice
+
 ---
 
 ## 🧠 Key Insight
@@ -25,7 +27,7 @@ target. Return the indices + 1
 
 ---
 
-### 2. Optimal Approach — Two Pointers
+### 2. Better Approach — Two Pointers
 
 - Place one pointer at the **start** of the array and one at the **end**.
 - Compute the sum of the two pointed values:
@@ -52,7 +54,7 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        start  = 0 
+        start  = 0
         end = len(numbers) - 1
 
         while start <= end:

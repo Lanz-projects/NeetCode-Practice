@@ -22,7 +22,7 @@ The single most important idea that unlocks the solution.
 - Sort the array and then scan through it, counting how long each consecutive streak is.
 - Sorting alone costs **O(n log n)**, which violates the required **O(n)** time constraint, making this approach too slow.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Convert the list into a hash set to allow **O(1)** membership checks, then iterate through each number and only begin counting when the number is the **start** of a sequence (i.e., `num - 1` is not in the set). From each valid start, expand forward (`num + 1`, `num + 2`, …) until the sequence ends.
 - This works because each number is touched only a constant number of times: once when checking if it begins a sequence, and at most once more during forward expansion. Hash set lookups keep all operations constant time, giving a true **O(n)** runtime.

@@ -24,7 +24,7 @@ A min-heap of size `k` makes this possible. The smallest value in the heap is al
 - Return the element at the appropriate position in the sorted list.
 - This approach becomes inefficient because sorting is repeated after every insertion.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Store the numbers in a min-heap and remove the smallest elements until only `k` remain.
 - The heap always contains the current `k` largest values.

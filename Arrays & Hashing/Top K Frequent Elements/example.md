@@ -5,6 +5,7 @@
 - Given an int array and int k,
 - Return the k most freq eleemnts in any order
 - Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
+
 ---
 
 ## 🧠 Key Insight
@@ -25,7 +26,7 @@ Since frequencies range from 1 to n, a bucket array lets us retrieve the top k e
 
 ---
 
-### 2. Optimal Approach (Bucket Sort)
+### 2. Better Approach (Bucket Sort)
 
 - Count frequencies using a hashmap.
 - Create a bucket list where index = frequency and value = list of numbers with that frequency.

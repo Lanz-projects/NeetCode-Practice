@@ -33,7 +33,7 @@ If the frequency maps match, we've found a valid permutation.
 - Check whether each permutation appears as a substring of `s2`.
 - Since `s1` has up to `n!` permutations, this approach becomes infeasible even for moderately sized strings.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Build a frequency map for the characters in `s1`.
 - Use a sliding window of length `len(s1)` over `s2`.

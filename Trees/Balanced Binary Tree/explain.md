@@ -25,7 +25,7 @@ By returning both the balance status and the height from each recursive call, th
 
 This approach repeatedly computes subtree heights, leading to unnecessary work and a slower overall solution.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 The solution performs a single depth-first traversal that returns both the balance status and the height of each subtree.
 

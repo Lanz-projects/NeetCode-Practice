@@ -26,7 +26,7 @@ A **monotonic increasing stack** lets us efficiently track bars whose rectangles
 - Compute the rectangle area using that width and keep track of the maximum.
 - Since this expansion is repeated for every bar, the overall time complexity is **O(n²)**.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Maintain a **monotonic increasing stack** storing pairs of:
   - starting index

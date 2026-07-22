@@ -23,7 +23,7 @@ A depth-first search allows us to compute both values during a single traversal.
 - Consider every possible path between every pair of nodes and calculate its sum.
 - Since the number of possible paths grows rapidly as the tree becomes larger, this approach is far too slow for the given constraints.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Perform a post-order depth-first search so each node is processed after its children.
 - Recursively compute the maximum path sum that can be extended upward from the left and right children.

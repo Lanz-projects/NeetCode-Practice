@@ -24,7 +24,7 @@ Since Python's `heapq` implements a min-heap, storing the stone weights as negat
 - Smash them together, update the array, and repeat until one or no stones remain.
 - This approach performs unnecessary sorting after every operation, making it inefficient.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Convert every stone weight to a negative value and build a heap.
 - On each iteration, remove the two largest stones by popping the two smallest negative values.

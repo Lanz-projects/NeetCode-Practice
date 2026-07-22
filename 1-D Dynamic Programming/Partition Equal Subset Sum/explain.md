@@ -23,7 +23,7 @@ Otherwise, the goal is to determine whether a subset with sum equal to half of t
 - Recursively try placing every number into one of two subsets and compare their sums at the end.
 - Since every element has two choices, this approach explores exponentially many possibilities.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - First, compute the total sum of the array. If it is odd, immediately return `False`.
 - Set the target sum to half of the total.

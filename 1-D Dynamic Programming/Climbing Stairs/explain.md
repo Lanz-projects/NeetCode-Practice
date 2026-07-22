@@ -23,7 +23,7 @@ This means the number of ways to reach the current step is simply the sum of the
 - Recursively try taking either one step or two steps from every position until reaching the top.
 - This recomputes the same subproblems many times, leading to exponential running time.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Keep track of the number of ways to reach the previous two steps using two variables.
 - Iterate from the bottom of the staircase toward the top, updating these values based on the recurrence relation.

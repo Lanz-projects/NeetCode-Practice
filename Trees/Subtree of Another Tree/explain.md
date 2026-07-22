@@ -25,7 +25,7 @@ If it is not, recursively repeat the process for the left and right children unt
 
 Although this approach may compare many subtrees, it is the straightforward way to solve the problem and forms the basis of the recursive solution.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 The solution recursively searches the main tree while using a helper function to compare two trees for equality.
 

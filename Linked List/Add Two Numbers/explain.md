@@ -37,7 +37,7 @@ Continue until both lists and the carry have been fully processed.
 - Convert the resulting integer back into a linked list.
 - While this works conceptually, it relies on converting potentially very large numbers and does not naturally follow the linked list representation.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Create a dummy node to simplify building the result list.
 - Traverse both linked lists simultaneously.

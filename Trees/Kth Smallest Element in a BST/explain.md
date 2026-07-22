@@ -24,7 +24,7 @@ Instead of storing every value, we can count each node as we visit it during the
 - Since the values are collected in sorted order, return the element at index `k - 1`.
 - This approach works but uses unnecessary extra space because every value is stored, even though only one is needed.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use an iterative in-order traversal with a stack.
 - Starting from the root, repeatedly move left, pushing each node onto the stack until reaching the leftmost node.

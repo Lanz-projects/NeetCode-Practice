@@ -25,7 +25,7 @@ By carrying this maximum value during a depth-first traversal, you can immediate
 
 Although this works, it repeatedly traverses the same paths, resulting in unnecessary work.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 The solution uses a recursive depth-first search while passing the maximum value seen on the current root-to-node path.
 

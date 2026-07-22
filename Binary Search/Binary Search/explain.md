@@ -9,7 +9,7 @@ Given an `m x n` matrix where:
 
 Given a target value, return `True` if the target exists in the matrix; otherwise, return `False`.
 
-The required time complexity is **O(log(m * n))**, so we need to leverage the matrix's sorted structure instead of scanning every element.
+The required time complexity is **O(log(m \* n))**, so we need to leverage the matrix's sorted structure instead of scanning every element.
 
 ---
 
@@ -37,7 +37,7 @@ By repeatedly cutting the search space in half, we efficiently locate the target
 - Return `True` if found; otherwise return `False`.
 - This examines every element in the worst case, resulting in **O(m × n)** time.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - First, binary search the rows:
   - If the target is larger than the row's last element, search lower rows.

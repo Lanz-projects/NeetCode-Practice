@@ -24,7 +24,7 @@ By using backtracking, we only continue exploring partitions built from valid pa
 - After creating a partition, check whether every substring is a palindrome.
 - This approach wastes time exploring many partitions that ultimately contain invalid substrings.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use backtracking to build one partition at a time.
 - Starting from the current index, try every possible ending index to form a substring.

@@ -31,7 +31,7 @@ This allows us to find the answer in one pass without checking every possible pa
 - Return the largest profit found.
 - This requires checking every pair of days, resulting in **O(n²)** time complexity.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use two pointers:
   - `l` represents the best day to buy (lowest price seen so far).

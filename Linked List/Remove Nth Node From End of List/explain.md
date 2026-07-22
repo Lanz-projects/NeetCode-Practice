@@ -29,7 +29,7 @@ Using a dummy node simplifies handling edge cases, such as removing the head of 
 - Traverse the list again to that position and remove the node.
 - While simple, this requires **two passes** through the list.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Create a dummy node that points to the head.
 - Initialize:

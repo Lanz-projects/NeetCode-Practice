@@ -23,7 +23,7 @@ After deciding not to use a candidate, any consecutive duplicates are skipped so
 - Generate every possible subset of the candidates and check whether its sum equals the target.
 - Since duplicate values can produce identical combinations, additional work is needed to remove duplicates after the search, making this approach inefficient.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Sort the candidate array so duplicate values are adjacent.
 - Use depth-first search with backtracking to build one combination at a time.

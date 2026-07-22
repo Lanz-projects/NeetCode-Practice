@@ -30,7 +30,7 @@ This works because RPN ensures the correct order of operations without parenthes
 - Evaluate the expression by repeatedly scanning the tokens and manually resolving operations in order.
 - Too slow and complicated because Reverse Polish Notation requires nested operations, and repeatedly searching for operators leads to inefficient multi‑pass processing.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use a stack to evaluate the expression in a single pass.
 - Push numbers onto the stack; when an operator appears, pop the top two numbers, apply the operator, and push the result back.

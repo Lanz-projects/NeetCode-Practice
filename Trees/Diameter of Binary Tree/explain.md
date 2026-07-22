@@ -25,7 +25,7 @@ By calculating the height of each subtree during a depth-first traversal, you ca
 
 This approach repeatedly recalculates subtree heights, resulting in unnecessary work and a much slower overall solution.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 The solution performs a single depth-first traversal of the tree while computing the height of each subtree.
 

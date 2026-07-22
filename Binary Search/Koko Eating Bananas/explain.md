@@ -2,7 +2,7 @@
 
 ## 🔍 Problem Summary
 
-Koko has `n` piles of bananas, where `piles[i]` is the number of bananas in the *i*-th pile.
+Koko has `n` piles of bananas, where `piles[i]` is the number of bananas in the _i_-th pile.
 
 She has `h` hours before the guards return, and she must finish all the bananas before then.
 
@@ -40,7 +40,7 @@ Instead of searching through the piles, we binary search the range of possible s
 - Return the first speed that finishes within `h` hours.
 - While correct, this can require checking many unnecessary speeds, making it inefficient for large inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - The minimum possible speed is `1`, and the maximum possible speed is the size of the largest pile.
 - Use binary search over this range of possible speeds.

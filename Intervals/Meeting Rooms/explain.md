@@ -24,7 +24,7 @@ This means we only need to compare each meeting with the one immediately before 
 - If any pair overlaps, return `False`; otherwise, return `True`.
 - This approach performs unnecessary comparisons, resulting in **O(n²)** time.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Sort the meetings by their starting times.
 - Iterate through the sorted list beginning with the second meeting.

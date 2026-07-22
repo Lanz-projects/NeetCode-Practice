@@ -23,7 +23,7 @@ If an edge connects two nodes that are already connected, adding that edge would
 - Remove each edge one at a time and perform a DFS or BFS to check whether the remaining graph is still connected and free of cycles.
 - This requires repeatedly traversing the graph, making it much less efficient.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use a Union-Find (Disjoint Set Union) data structure to track connected components.
 - Initially, every node is its own parent.

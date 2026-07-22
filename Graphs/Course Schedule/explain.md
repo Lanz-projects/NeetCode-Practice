@@ -23,7 +23,7 @@ Using Depth-First Search (DFS) with a recursion stack allows cycles to be detect
 - For every course, repeatedly explore all prerequisite chains without remembering previously processed results.
 - This revisits the same prerequisite paths many times and performs unnecessary work, especially when multiple courses share prerequisites.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Build an adjacency list that maps each course to its list of prerequisites.
 - Perform a DFS starting from every course.

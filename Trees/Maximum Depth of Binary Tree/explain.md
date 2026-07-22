@@ -23,7 +23,7 @@ By recursively computing the depth of each subtree, the maximum depth of the ent
 - Traverse every possible path from the root to each leaf while manually tracking the current depth.
 - Although this finds the correct answer, it requires additional bookkeeping and is less elegant than using the recursive structure of the tree.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use recursion to compute the maximum depth of each subtree.
 - If the current node is `None`, return `0` since an empty tree has no depth.

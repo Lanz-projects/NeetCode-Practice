@@ -25,7 +25,7 @@ Since every subtree is itself a binary tree, recursively performing the same ope
 
 While this works, it requires additional memory to build a second tree when the original tree can be modified directly.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 The solution uses a recursive depth-first traversal to invert the tree in place.
 

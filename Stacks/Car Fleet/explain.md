@@ -38,7 +38,7 @@ Instead of simulating movement, we only compare each car's time to reach the tar
 - Continuously check whether faster cars catch slower cars and merge them into fleets.
 - This requires repeatedly updating positions and checking collisions, making the simulation unnecessarily complicated and inefficient.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Pair each car's position with its speed.
 - Sort the cars by position so they can be processed from **closest to the target** to **farthest**.

@@ -36,7 +36,7 @@ Once `have == need`, the window contains every required character, so we try to 
 - Keep the smallest valid substring found.
 - Since there are **O(n²)** substrings and validating each one requires additional work, this approach is far too slow.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Build a frequency map for the characters in `t`.
 - Use two pointers to maintain a sliding window over `s`.

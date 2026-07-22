@@ -24,7 +24,7 @@ A min-heap can then keep track of candidate intervals by their size, while remov
 - Among all matching intervals, return the smallest interval size.
 - This approach takes **O(n · m)** time for `n` intervals and `m` queries, which is too slow for large inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Sort the intervals by their starting value.
 - Sort the queries, but keep track of their original positions by storing answers in a dictionary.

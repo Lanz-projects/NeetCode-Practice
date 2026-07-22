@@ -24,7 +24,7 @@ Within the current reachable range, determine the farthest position that can be 
 - Keep track of the minimum number of jumps needed to reach the last index.
 - This explores many redundant paths and has exponential time complexity, making it impractical for large inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Maintain two pointers, `l` and `r`, representing the current range of indices reachable with the current number of jumps.
 - For every index in this range, compute the farthest position that can be reached with one more jump.

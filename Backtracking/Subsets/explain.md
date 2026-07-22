@@ -23,7 +23,7 @@ This naturally forms a decision tree where each path represents one unique subse
 - Generate every possible combination of elements by checking all inclusion and exclusion possibilities.
 - While this idea is correct, implementing it manually can become complicated. Backtracking provides a cleaner and more structured way to explore the same decision tree.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use depth-first search with backtracking to build one subset at a time.
 - Starting from the first element, make two recursive calls: one that includes the current element and one that excludes it.

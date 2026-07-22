@@ -27,7 +27,7 @@ Whichever node has the smaller value is appended to the merged list, and its poi
 - Build a new linked list from the sorted values.
 - While correct, this requires **O(m + n)** extra space and performs unnecessary sorting since the input lists are already sorted.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Create a dummy node to simplify building the merged list.
 - Maintain a `tail` pointer that always points to the last node in the merged list.

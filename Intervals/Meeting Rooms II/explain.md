@@ -24,7 +24,7 @@ As you scan through the start times, compare each one with the earliest ending m
 - Create a new room whenever no existing room can accommodate the meeting.
 - This approach repeatedly checks room availability, making it inefficient as the number of meetings grows.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Store all meeting start times in one array and all end times in another.
 - Sort both arrays independently.

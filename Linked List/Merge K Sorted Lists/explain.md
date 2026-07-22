@@ -26,7 +26,7 @@ Each merge combines two already sorted linked lists in linear time. By reducing 
 
 Although this produces the correct result, it ignores that the input lists are already sorted and spends extra time sorting all of the values.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 The solution uses a divide-and-conquer strategy by repeatedly merging linked lists in pairs.
 

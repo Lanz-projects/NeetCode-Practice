@@ -23,7 +23,7 @@ By repeating this process until no elements remain, every possible ordering is g
 - Generate every possible ordering by trying all arrangements of the elements and filtering out duplicates if necessary.
 - While correct, manually managing all possible swaps and ensuring uniqueness is more complicated than using a recursive construction.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Recursively generate all permutations of the array excluding the first element.
 - For each smaller permutation returned by the recursive call, insert the first element into every possible position.

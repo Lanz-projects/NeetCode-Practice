@@ -23,7 +23,7 @@ By exploring an entire connected component before continuing the scan, each isla
 - Start from every land cell and repeatedly search its neighboring land without keeping track of previously explored cells.
 - This leads to revisiting the same island many times, making the solution unnecessarily inefficient and difficult to manage.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Iterate through every cell in the grid.
 - Whenever an unvisited land cell is found, increment the island count and perform a Breadth-First Search (BFS) starting from that cell.

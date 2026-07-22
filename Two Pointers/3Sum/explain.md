@@ -43,7 +43,7 @@ This transforms the problem from “three nested loops” into “one loop + two
   - Requires extra space to track duplicates.
   - Does not leverage any structure in the array.
 
-### 2. Optimal Approach — Sorting + Two Pointers
+### 2. Better Approach — Sorting + Two Pointers
 
 - First, sort the array so that duplicates are adjacent and pointer movement becomes predictable.
 - Iterate through the array, fixing one value `nums[i]` at a time. This value acts as the first element of the potential triplet.

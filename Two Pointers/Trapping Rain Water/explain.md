@@ -34,7 +34,7 @@ This reduces the problem to efficiently tracking left and right maximums — whi
 
 ---
 
-### 2. Optimal Approach — Two Pointers
+### 2. Better Approach — Two Pointers
 
 - Use two pointers (`l` and `r`) starting at the ends of the array.
 - Track running `leftMax` and `rightMax` as you move inward.

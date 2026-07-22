@@ -44,7 +44,7 @@ Whenever a key is accessed or updated, move its node to the right end of the lis
 - When the cache is full, remove the first element.
 - Since searching and moving elements both require linear time, operations take **O(n)**, which does not satisfy the problem requirements.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Store each key in a hash map that points to its corresponding node in a doubly linked list.
 - The linked list maintains items in order of recent use:

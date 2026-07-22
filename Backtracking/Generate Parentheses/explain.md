@@ -24,7 +24,7 @@ By constructing each string one character at a time, we can stop exploring any p
 - Check each completed string to determine whether it is a valid parentheses sequence.
 - This approach explores many invalid combinations, making it much slower than necessary.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use backtracking to build the parentheses string one character at a time.
 - Keep track of how many opening and closing parentheses have been added so far.

@@ -26,7 +26,7 @@ The fastest way to compare both ends simultaneously is a two‑pointer technique
 
 ---
 
-### 2. Optimal Approach — Two Pointers
+### 2. Better Approach — Two Pointers
 
 - Use two pointers: one starting at the beginning, one at the end.
 - Move both inward while skipping non‑alphanumeric characters.

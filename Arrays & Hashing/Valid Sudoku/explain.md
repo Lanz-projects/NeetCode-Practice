@@ -40,7 +40,7 @@ If a digit appears twice in any of these three structures, the board is invalid.
 
 ---
 
-### 2. Optimal Approach (Hash Sets for Rows, Columns, Boxes)
+### 2. Better Approach (Hash Sets for Rows, Columns, Boxes)
 
 - Maintain three hash structures:
   - `rows[r]` → digits in row `r`

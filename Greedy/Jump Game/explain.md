@@ -24,7 +24,7 @@ Maintain the leftmost position that can reach the goal. If the current index can
 - Return `True` if any path reaches the last index.
 - This explores many duplicate paths and becomes exponential in the worst case, making it too slow for large inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Initialize the goal as the last index.
 - Traverse the array from right to left.

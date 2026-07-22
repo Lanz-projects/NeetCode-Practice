@@ -23,7 +23,7 @@ By expanding outward from each possible center, every palindromic substring is d
 - Generate every possible substring and check whether each one is a palindrome.
 - Since there are **O(n²)** substrings and each palindrome check can take **O(n)** time, this approach runs in **O(n³)** time.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Iterate through every index in the string.
 - Treat each index as the center of an odd-length palindrome and each adjacent pair as the center of an even-length palindrome.

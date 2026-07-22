@@ -26,7 +26,7 @@ Before reversing a group, first verify that it contains exactly `k` nodes. Once 
 
 Although this approach is easier to reason about, it uses extra memory and does not satisfy the requirement of modifying the linked list by rearranging the nodes themselves.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 The solution uses a dummy node along with pointers to process the linked list one group at a time.
 

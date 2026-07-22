@@ -33,7 +33,7 @@ Therefore, if you want a better chance at increasing the area, you should move t
 
 ---
 
-### 2. Optimal Approach — Two Pointers
+### 2. Better Approach — Two Pointers
 
 - Place one pointer at the **left** end and one at the **right** end of the array.
 - Compute the area formed by the two lines.

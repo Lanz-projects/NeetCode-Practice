@@ -23,7 +23,7 @@ This allows backtracking to explore every unique subset exactly once.
 - Generate all possible subsets and store them in a set to remove duplicates afterward.
 - While this works, it creates duplicate subsets unnecessarily and requires additional work and memory to filter them out.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Sort the array so duplicate values appear consecutively.
 - Use backtracking to make two decisions for each element: include it in the current subset or exclude it.

@@ -24,7 +24,7 @@ A min-heap of size `k` makes this efficient because the smallest value in the he
 - Return the element at index `k - 1`.
 - This works, but sorting the entire array takes more time than necessary when only one element is needed.
 
-### 2. Optimal Approach (Min Heap)
+### 2. Better Approach (Min Heap)
 
 - Create an empty min-heap.
 - Iterate through each number in the array and add it to the heap.

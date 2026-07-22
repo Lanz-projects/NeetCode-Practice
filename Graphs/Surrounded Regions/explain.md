@@ -23,7 +23,7 @@ Any `'O'` connected to the border is guaranteed to remain `'O'`, so temporarily 
 - Start a DFS or BFS from every `'O'` to determine whether its region reaches the border.
 - This repeatedly explores the same regions, resulting in unnecessary work.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Iterate over every border cell and start a Depth-First Search (DFS) from each border `'O'`.
 - During the DFS, temporarily mark every connected `'O'` as `'T'` to indicate it cannot be captured.

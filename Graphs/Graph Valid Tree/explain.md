@@ -21,7 +21,7 @@ The single most important idea that unlocks the solution.
 - One or two bullets describing how it works
 - Why it’s too slow or not ideal
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - The strategy you chose
 - Why it works
@@ -41,13 +41,13 @@ class Solution:
       for n1, n2 in edges:
         adj[n1].append(n2)
         adj[n2].append(n1)
-      
+
       visit = set()
       def dfs(i, prev):
         if i in visit:
           return False
         visit.add(i)
-        
+
         for j in adj[i]:
           if j == prev:
             continue

@@ -37,7 +37,7 @@ This allows us to use a **sliding window**, expanding when the window is valid a
 - Check whether the substring can be made into a single repeated character using at most `k` replacements.
 - Since there are **O(n²)** substrings and counting frequencies takes additional work, this approach is too slow.
 
-### 2. Optimal Approach (O(26n))
+### 2. Better Approach (O(26n))
 
 - Use a sliding window with two pointers.
 - Maintain a frequency map of the characters currently inside the window.

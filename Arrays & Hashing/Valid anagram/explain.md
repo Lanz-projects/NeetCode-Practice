@@ -26,7 +26,7 @@ we can create a counter to compare them.
 - Time: O(n^2)
 - Space: O(n)
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Check the length
 - Use a counter (defaultdict), to keep track of freq of characters

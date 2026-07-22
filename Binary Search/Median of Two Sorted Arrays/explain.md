@@ -27,7 +27,7 @@ Once the correct partition is found, the median can be computed directly from th
 - Return the middle element (or average of the two middle elements for an even-length array).
 - While straightforward, merging requires **O(m + n)** time, which does not satisfy the required logarithmic runtime.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Always perform binary search on the **smaller array** to minimize the search space.
 - Partition both arrays so that:

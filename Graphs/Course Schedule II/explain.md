@@ -23,7 +23,7 @@ Using a Depth-First Search (DFS), you can detect cycles with a recursion stack w
 - Try every possible ordering of the courses and check whether it satisfies all prerequisite relationships.
 - The number of possible orderings grows extremely quickly, making this approach impractical even for small inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Build an adjacency list that maps each course to its list of prerequisites.
 - Perform a DFS from every course while maintaining two sets:

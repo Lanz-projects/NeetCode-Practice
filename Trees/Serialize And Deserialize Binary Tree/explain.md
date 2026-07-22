@@ -23,7 +23,7 @@ During deserialization, reading the values in the same preorder order allows the
 - Store only the node values in a traversal order such as preorder or inorder.
 - This does not preserve the tree's structure because missing children are not recorded, making it impossible to uniquely reconstruct the original tree.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Perform a preorder depth-first traversal of the tree.
 - For each node, append its value to the serialized result. If a node is `None`, append a special marker (`"N"`).

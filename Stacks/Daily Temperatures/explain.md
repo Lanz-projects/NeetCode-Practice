@@ -33,7 +33,7 @@ This naturally leads to using a **monotonic decreasing stack** that stores unres
 
 Because of the nested scanning, the time complexity is **O(n²)**, which is too slow for large inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Maintain a **monotonic decreasing stack** containing pairs of:
   - temperature

@@ -35,7 +35,7 @@ Finding the duplicate becomes equivalent to finding the **entrance of the cycle*
 
 Other straightforward approaches, such as using a hash set or sorting the array, violate the problem constraints because they either use extra space or modify the input array.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Treat the array as a linked list:
   - From index `i`, move to index `nums[i]`.

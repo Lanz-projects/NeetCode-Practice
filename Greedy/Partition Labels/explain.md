@@ -24,7 +24,7 @@ By first recording the last index of each character, you can expand the current 
 - For each partition, verify that no character appears in another partition.
 - This requires checking many possible partition points, making it inefficient for longer strings.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Make one pass through the string to record the last occurrence of every character.
 - Traverse the string a second time while tracking:

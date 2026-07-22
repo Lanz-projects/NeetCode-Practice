@@ -24,7 +24,7 @@ This allows us to process the intervals in a single pass, merging the current in
 - Repeatedly merge overlapping intervals until no overlaps remain.
 - This approach performs many unnecessary comparisons, making it inefficient for large inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Sort the intervals by their starting values.
 - Initialize the result list with the first interval.

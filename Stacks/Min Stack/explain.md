@@ -26,7 +26,7 @@ This ensures `getMin()` is always just the top of `minStack`.
 - Store all values in a single stack and compute the minimum by scanning the entire stack whenever `getMin()` is called.
 - This is **too slow** because scanning takes O(n) time, violating the O(1) requirement.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Maintain **two stacks**:
   - `stack` → stores all values normally

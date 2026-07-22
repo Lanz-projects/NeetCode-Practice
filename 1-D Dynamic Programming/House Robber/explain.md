@@ -12,7 +12,7 @@ Your task is to determine the maximum amount of money that can be stolen without
 
 For every house, there are only two choices: rob it or skip it.
 
-If you rob the current house, you must add its value to the best profit from two houses back. If you skip it, you keep the best profit from the previous house. The better of these two choices becomes the optimal result for the current position.
+If you rob the current house, you must add its value to the best profit from two houses back. If you skip it, you keep the best profit from the previous house. The better of these two choices becomes the Better result for the current position.
 
 ---
 
@@ -23,7 +23,7 @@ If you rob the current house, you must add its value to the best profit from two
 - Recursively explore both choices at every house: rob it or skip it.
 - This repeatedly solves the same subproblems, resulting in exponential running time.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Maintain two variables:
   - `rob1` stores the maximum profit up to two houses back.

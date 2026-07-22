@@ -23,7 +23,7 @@ By working backward through the string, we can compute the number of decoding wa
 - Recursively try decoding one digit and two digits whenever both are valid.
 - This repeatedly solves the same suffixes of the string, resulting in exponential running time.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use dynamic programming to store the number of decoding ways starting from each index.
 - Initialize the base case by setting the position after the end of the string to `1`, representing one valid way to decode an empty suffix.

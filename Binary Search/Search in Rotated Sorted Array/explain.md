@@ -31,7 +31,7 @@ This allows us to eliminate half of the remaining elements on every iteration, j
 - Return its index if found; otherwise return `-1`.
 - This requires **O(n)** time, which does not satisfy the required logarithmic runtime.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use two pointers representing the current search range.
 - Repeatedly compute the middle index.

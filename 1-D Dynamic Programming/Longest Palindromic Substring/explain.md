@@ -23,7 +23,7 @@ By expanding outward from every possible center until the characters no longer m
 - Generate every possible substring and check whether each one is a palindrome.
 - Since there are **O(n²)** substrings and checking each can take **O(n)** time, this approach runs in **O(n³)** time and is too slow for larger inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Treat every index as the center of an odd-length palindrome and every pair of adjacent indices as the center of an even-length palindrome.
 - Expand outward while the left and right characters match.

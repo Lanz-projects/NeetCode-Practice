@@ -24,7 +24,7 @@ By using sets to record occupied columns, positive diagonals, and negative diago
 - After generating a complete board, check whether any queens attack each other.
 - This approach explores an enormous number of invalid configurations, making it far too slow as `n` grows.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use backtracking to place one queen in each row.
 - For each row, try placing a queen in every column.

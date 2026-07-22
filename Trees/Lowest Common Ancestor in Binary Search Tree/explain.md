@@ -25,7 +25,7 @@ By comparing the values of `p` and `q` with the current node, you can determine 
 
 Although this works, it requires storing both paths and does not take full advantage of the Binary Search Tree structure.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 The solution uses an iterative traversal that leverages the ordering property of a Binary Search Tree.
 

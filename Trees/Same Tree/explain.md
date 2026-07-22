@@ -23,7 +23,7 @@ If both nodes are `None`, that portion of the trees matches. If one node is miss
 - Traverse both trees separately, store their structures and values, then compare the resulting representations.
 - This works but requires additional memory to store both traversals before making the comparison.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Recursively compare the corresponding nodes of both trees.
 - If both nodes are `None`, return `True` since the current subtrees match.

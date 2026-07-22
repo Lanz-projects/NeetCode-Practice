@@ -31,7 +31,7 @@ Instead of recomputing these products from scratch for every index (which leads 
 - **Time:** O(n²) because for each of the n positions, we scan almost the entire array again.
 - **Why it’s not ideal:** We repeatedly recompute products from scratch for every index, doing a lot of duplicated work.
 
-### 2. Optimal Approach (Prefix + Suffix Products)
+### 2. Better Approach (Prefix + Suffix Products)
 
 - Build a `result` array where `result[i]` initially stores the **product of all elements to the left**.
 - Then traverse from the right, maintaining a running suffix product, and multiply it into `result[i]`.

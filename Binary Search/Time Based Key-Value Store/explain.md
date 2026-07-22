@@ -33,7 +33,7 @@ Instead of searching every stored value, binary search reduces each lookup to **
 - When `get()` is called, scan the list from the end (or beginning) until finding the largest timestamp that is less than or equal to the target timestamp.
 - This works correctly but requires **O(n)** time for every lookup, which becomes inefficient as more values are stored.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Store each key in a dictionary that maps to a list of `[value, timestamp]` pairs.
 - Since timestamps are guaranteed to be inserted in increasing order, each list remains sorted automatically.

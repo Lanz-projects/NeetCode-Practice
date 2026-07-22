@@ -24,7 +24,7 @@ By always retaining the interval with the smaller ending value, we minimize the 
 - Keep track of the smallest number of removals that produces a valid set.
 - This approach explores far too many possibilities and is impractical for large inputs.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Sort the intervals by their starting values.
 - Keep track of the ending value of the last interval that has been kept.

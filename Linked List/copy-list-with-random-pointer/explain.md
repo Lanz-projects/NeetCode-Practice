@@ -35,7 +35,7 @@ Once every copied node has been created, we can use the map to correctly assign 
 - Then search the copied list again to find the corresponding copied node.
 - Since each random pointer may require scanning the list, this results in **O(n²)** time complexity.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Use a hash map to associate every original node with its copied node.
 - Perform two passes through the list:

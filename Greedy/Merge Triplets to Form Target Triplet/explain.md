@@ -24,7 +24,7 @@ Among the remaining valid triplets, all that matters is whether each position of
 - Check whether any sequence eventually produces the target triplet.
 - This explores far too many combinations of merges and is computationally infeasible.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Iterate through every triplet.
 - Ignore any triplet whose value exceeds the target in any position since it can never contribute to a valid answer.

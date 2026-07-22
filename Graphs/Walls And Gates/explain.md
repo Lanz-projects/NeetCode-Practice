@@ -23,7 +23,7 @@ By performing a multi-source Breadth-First Search (BFS), the first time an empty
 - Run a BFS from every empty room to find the nearest gate.
 - This repeatedly explores the same areas of the grid, making the solution much slower than necessary.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Initialize a queue with every gate in the grid before starting the search.
 - Perform a multi-source BFS, expanding outward from all gates simultaneously.

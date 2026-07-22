@@ -24,7 +24,7 @@ A heap makes this efficient by always selecting the newest available tweet. When
 - Sort the combined list by timestamp and return the 10 most recent tweets.
 - This repeatedly sorts large collections of tweets, making news feed retrieval inefficient.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Store each user's tweets in chronological order along with a timestamp.
 - Keep a mapping of which users each person follows.

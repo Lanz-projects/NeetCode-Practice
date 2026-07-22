@@ -29,7 +29,7 @@ This ensures the window always contains unique characters while allowing us to f
 - Keep track of the longest valid substring found.
 - Since there are **O(n²)** substrings and checking each one can take **O(n)** time, the overall complexity is **O(n³)**.
 
-### 2. Optimal Approach
+### 2. Better Approach
 
 - Maintain a sliding window using two pointers:
   - `l` marks the beginning of the current substring.
